@@ -21,7 +21,7 @@ np.set_printoptions(threshold=sys.maxsize)
 @author: Talessil
 Building and evaluating  classification Algorithms
 input: fp_input_def.csv
-output: results.csv
+output: fp_input_def_resul.csv
 """
 
 """ CLASSIFICATION ALGORITHMS """
@@ -65,7 +65,7 @@ size = 0
 for n in X_test.values:
     size = size + 1
 aux = X_test.values
-with open('result.csv', mode='w') as result:
+with open('fp_input_def_resul.csv', mode='w') as result:
     result = csv.writer(result, delimiter=';', quotechar='"', quoting=csv.QUOTE_NONE,lineterminator = '\n')
     result.writerow(['author_id', 'discussion', 'review', 'qntags', 'pull', 'preds'])
     for k in range(size):
@@ -75,7 +75,7 @@ with open('result.csv', mode='w') as result:
 #show false positives
 dados = pd.read_csv("fp_input_def.csv", sep=";", header=0)
 array = dados.values
-dados2 = pd.read_csv("result.csv", sep=";", header=0)
+dados2 = pd.read_csv("fp_input_def_resul.csv", sep=";", header=0)
 array2 = dados2.values
 size = 0
 for n in array:
