@@ -196,7 +196,7 @@ for k in range(size):
     if array[k][5]==1:
         cont = cont + 1
               
-with open('fp_input_def.csv.csv', mode='w') as defi:   
+with open('fp_input_def.csv', mode='w') as defi:   
     defi = csv.writer(defi, delimiter=';', quotechar='"', quoting=csv.QUOTE_NONE,lineterminator = '\n')
     defi.writerow(['author_id', 'discussion', 'review', 'qntags', 'pull', 'requested'])
     for k in range(size):
