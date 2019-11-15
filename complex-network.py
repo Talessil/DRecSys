@@ -6,7 +6,7 @@ import statistics
 @author: Talessil
 Complex network building and calculus :
 input: git-network.csv
-output: 
+output: degree_centrality.txt, degree.txt, closeness.txt, betweenness.txt, pagerank.txt, out_degree.txt
 """
 
 G = nx.Graph()
