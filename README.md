@@ -14,4 +14,5 @@ FILES:
 
 FOLDERS:
 	
-	-insntances: tests data
+	-instances: tests data.
+	-NetSCAN_result: results obtained by netscan execution.
