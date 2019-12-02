@@ -1,7 +1,7 @@
 # DRecSys
-Diversity-based Expert Recommendation Approach
+Diversity-based Expert Recommendation Approach.
 
-Process focused in recommend experts.
+Process with focus in experts recommendation.
 
 FILES:
   
