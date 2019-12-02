@@ -10,3 +10,8 @@ FILES:
 	-classification.py: models study and false positive selection.
   
 	-complex-network.py: network representation and centrality calculus.
+
+
+FOLDERS:
+	
+	-insntances: tests data
