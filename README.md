@@ -23,6 +23,6 @@ FOLDERS:
 
 EXECUTION:
 
-	The database is first modeled as graph. Some initial network analysis are executed using 'complex-network.py'. 
-	Instances with "author_id", "discussion", "review", "qntags", "pull", "requested" as columns are created. There's an example inside FOLDER 'ins tances'. Pre-processing.py is used for outliers scale reduction, normalization and instance splitting - test and training (optional).
+	The database is first modeled as graph. Some initial network analysis can be done using 'complex-network.py'. 
+	Instances with "author_id", "discussion", "review", "qntags", "pull", "requested" as columns are created. There's an example inside FOLDER 'instances'. Pre-processing.py is used for outliers scale reduction, normalization and instance splitting - test and training(optional).
 	Classification algorithms are implemented in 'classification.py'.
