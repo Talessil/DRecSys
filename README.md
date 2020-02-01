@@ -3,7 +3,7 @@ Diversity-based Expert Recommendation Approach.
 
 Process with focus in experts recommendation.
 
-The full database can be downloaded in: https://github.com/vschettino/gitrev/tree/master/dumps
+The full database can be downloaded in: https://drive.google.com/open?id=1zCclYWc5CIKpR-xqZDTEI0u2X7018gz3
 
 FILES:
   
