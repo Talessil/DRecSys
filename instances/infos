@@ -1,0 +1,7 @@
+Tests Files.
+
+- git-network contains a social network from GitHub. The networks is model as a biderectional graph. 
+The file structure has 2 nodes ids on each column. And also a 'count' attribute representing the relation weight.
+The relation direction is from first id to second.
+
+-fp_input is the instance with 'core nodes'. The nodes were obtained with the NetSCAN algorithm execution.
