@@ -1,4 +1,4 @@
-Tests Files.
+Files Descriotions.
 
 - git-network contains a social network from GitHub. The networks is model as a biderectional graph. 
 The file structure has 2 nodes ids on each column. And also a 'count' attribute representing the relation weight.
