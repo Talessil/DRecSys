@@ -1,7 +1,7 @@
 # DRecSys
 Diversity-based Expert Recommendation Approach.
 
-Process with focus in experts recommendation.
+Process focused in non-comum experts recommendation.
 
 The full database can be downloaded in: https://drive.google.com/open?id=1zCclYWc5CIKpR-xqZDTEI0u2X7018gz3 
 
@@ -23,6 +23,11 @@ FOLDERS:
 
 EXECUTION:
 
-	The database is first modeled as graph. Some initial network analysis can be done using 'complex-network.py'. 
-	Instances with "author_id", "discussion", "review", "qntags", "pull", "requested" as columns are created. There's an example inside FOLDER 'instances'. Pre-processing.py is used for outliers scale reduction, normalization and instance splitting - test and training(optional).
-	Classification algorithms are implemented in 'classification.py'.
+	-The database is first modeled as graph. For network analysis use 'complex-network.py'. 
+	-NetSCAN algorithm [1] is used in order to find core (important) nodes.
+	-Instances based on core nodes are created. Many attributes can be extracted from full database. The used attributes are: "author_id", "discussion", "review", "qntags", "pull", "requested". There are example file inside *instances* (folder).
+	-Pre-processing.py contains outliers scale reduction, normalization and instance splitting - test and training (optional).
+	-Implemented Classification algorithms in 'classification.py'.
+
+
+[1] Horta,  V.,  Stroele,  V.,  Braga,  R.,  David,  J.M.N.  and  Campos,  F., 2018.  Analyzing  scientific  context  of  researchers  and  communities  by using  complex  network  and  semantic  technologies.  Future  Generation Computer Systems, 89, pp.584-605.
