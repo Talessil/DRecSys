@@ -1,7 +1,9 @@
-# DRecSys
-Diversity-based Expert Recommendation Approach.
+# DRecSysDiversity-based Expert Recommendation Approach.
+ -> Process focused in non-common experts recommendation.
 
-Process focused in non-common experts recommendation.
+Finding experts to assist with project is a crucial task in the Global Software Development (GSD) context, where a variety of stakeholders is involved. Automatic recommendation approaches lead to recommendations of the same group of popular developers, who ends up overloaded with many tasks to solve. This research aims to detect and recommend appropriateand diversified experts in GSD context. To that end, some popular GitHub projects were modeled as a collaborative network. The proposed approach uses NetSCAN clustering algorithm to detect communities and their core nodes. Some known classification algorithms are executed over the found core nodes and its results are compared. A diversity-base recommendation system is used to find experts (true positives), but with the flexibility to find people with features similar to those of experts (false positives). To evaluate our proposal, a temporal activity analysis was carried out, and complex network metrics and the developers’ role in the projects were investigated in order to state the proposed approach: DRecSys. Evidence was provided that the recommendation system developed is able to find non-obvious experts in GSD projects
+
+
 
 The full database can be downloaded in: https://drive.google.com/open?id=1zCclYWc5CIKpR-xqZDTEI0u2X7018gz3 
 
