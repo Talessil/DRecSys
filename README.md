@@ -26,10 +26,10 @@ FOLDERS:
 EXECUTION:
 
 	-The database is first modeled as graph. For the network analysis use 'complex-network.py'. 
-	-NetSCAN algorithm [1] is used in order to find core (important) nodes.
-	-Instances using core nodes are created. Many attributes can be extracted from the full database. The chosen attributes are: "author_id", "discussion", "review", "qntags", "pull", "requested". There are example file inside instances (folder).
-	-The Pre-processing.py contains outliers scale reduction, normalization and instance splitting - test and training (optional).
-	-The classification algorithms are in 'classification.py'.
+	-NetSCAN algorithm [1] is used in order to find core nodes.
+	-A new network is build using the core nodes. Many attributes can be extracted from the full database. The chosen attributes are: "author_id", "discussion", "review", "qntags", "pull", "requested". There are an example file inside the instances folder.
+	-The Pre-processing.py file contains outliers scale reduction function, as well as normalization and instance splitting - test and training (optional).
+	-The classification algorithms are in 'classification.py' file.
 
 
 [1] Horta, V., Stroele, V., Braga, R., David, J.M.N. and Campos, F., 2018. Analyzing scientific context of researchers and communities by using complex network and semantic technologies. Future Generation Computer Systems, 89, pp.584-605.
